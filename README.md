@@ -32,3 +32,7 @@ const Component = () => {
 
 export default Component;
 
+
+
+Per als que si que necessitin state:
+

@@ -7,16 +7,16 @@ import Rank from './components/Rank/Rank';
 import Particles from 'react-particles-js'
 
 const particlesOptions = {
-    particles: {
-      number: {
-        value: 30,
-        density: {
-          enable: true,
-          value_area: 1000
-        }
+  particles: {
+    number: {
+      value:30,
+      density: {
+        enable: true,
+        value_area: 1000
       }
     }
   }
+}
 
 
 function App() {
