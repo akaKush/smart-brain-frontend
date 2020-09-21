@@ -25,7 +25,6 @@ Step 7. Un cop creats els components (sense estat), afegim la<b> interacció ent
 
 
 
-
 <b>Tips:</b>
 
 Per qualsevol REACT APP és bo primer pensar en quins components necessitarem, i fer-nos un esbós, així després ja podem començar a crear l'app a partir d'aquests components, i com interaccionen entre ells), en el cas d'aquest projecte:
@@ -34,10 +33,10 @@ Per qualsevol REACT APP és bo primer pensar en quins components necessitarem, i
 Per els components que <b>NO</b> hagin de tenir <b>state</b>, els definim tq:
 
 const Component = () => { <br>
-    return ( <br>
-        //code <br>
-    ); <br>
-} <br>
+..return (
+....//code
+..);
+}
 
 export default Component;
 
