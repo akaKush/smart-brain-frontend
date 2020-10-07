@@ -32,10 +32,10 @@ Per qualsevol REACT APP és bo primer pensar en quins components necessitarem, i
 
 Per els components que <b>NO</b> hagin de tenir <b>state</b>, els definim tq:
 
-const ComponentCorresponent = () => { <br>
-  return (
-    //codi d'aquest component
-  );
+const ComponentCorresponent = () => {
+    return (
+      //codi d'aquest component
+    );
 }
 
 export default Component;
@@ -49,11 +49,8 @@ class ComponentCorresponent extends React.Component {
         super();
 
         this.state = {
-            //codi del component amb state
-            
-            //solem tenir un array amb diferents parametres
+
         }
     }
 }
-
 
